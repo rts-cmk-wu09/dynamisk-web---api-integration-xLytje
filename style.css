@@ -36,5 +36,6 @@ header img{
 }
 .listed div{
     display: flex;
+    align-items: center;
     gap: 20px;
 }
