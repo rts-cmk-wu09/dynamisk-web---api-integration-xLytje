@@ -28,13 +28,17 @@ header img{
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: white;
-    border-radius: 1000px;
+    border-radius: 43px;
     padding: 15px 25px;
     margin-bottom: 15px;
     cursor: pointer;
 }
 .listed img{
     width: 50px;
+}
+.listed > div > img{
+    scale: 1.5;
+    margin-left: 10px;
 }
 .listed div{
     display: flex;
