@@ -23,8 +23,11 @@ fetch(`https://pokeapi.co/api/v2/pokemon/?limit=15`)
                         item.addEventListener("click", () => {
                             const newDiv = document.createElement("div");
                             newDiv.classList.add("info");
-
-                            newDiv.innerHTML = `<section><p>Teste text til information</p></section>`;
+                            
+                            newDiv.innerHTML = `
+                            <section><p>
+                            Height: ${data.abilities[0].ability.name}
+                            </p></section>`;
 
                             const isAdded = item.classList.contains("added");
                             if (isAdded) {
